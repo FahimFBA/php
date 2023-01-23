@@ -1,15 +1,18 @@
 # PHP
 A beginners handbook for the PHP learners
+
+👉 [Read the book as a website](https://fahimfba.github.io/php/)
 ---
 
 I think the first thing that might come into your mind is that "Isn't PHP already dead?" Trust me, I was thinking the same thing when I started learning this language.
 
 ## Index
-- [Introduction](#introduction)
-- [Installation](#installation)
-- IDE/Text Editor
-- Customization
-- Hello World
+- [PHP](#php)
+  - [👉 Read the book as a website](#-read-the-book-as-a-website)
+  - [Index](#index)
+  - [Introduction (What is PHP?)](#introduction-what-is-php)
+  - [Installation](#installation)
+    - [Change Compatibility (Optional)](#change-compatibility-optional)
 
 
 
