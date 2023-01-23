@@ -53,3 +53,44 @@ We will see some more folders and files inside the "htdocs" folder.
 <img src="img/4.png" alt="inside htdocs folder" style="width:100%">
 <figcaption align = "center"><b>Folders and Files inside the "htdocs" folder</b></figcaption>
 </figure>
+
+We will create a new folder here where we will practice our PHP scripts. For this article, let's say that I am going to use a new folder named "PHPwithFahim". You can name it whatever you want, but make sure not to start the name other than any alphabet, and also do not keep any space between words/characters in the folder name. 
+
+
+<figure>
+<img src="img/5.png" alt="PHPwithFahim Folder" style="width:100%">
+<figcaption align = "center"><b>Folder "PHPwithFahim"</b></figcaption>
+</figure>
+
+Now open this folder in your Sublime Text. Simply click on "File" and click on "Open Folder...".
+
+<figure>
+<img src="img/6.png" alt="Sublime Text" style="width:100%">
+<figcaption align = "center"><b>Open Folder in Sublime Text</b></figcaption>
+</figure>
+
+Select the "PHPwithFahim" folder and open it in Sublime Text.
+
+<figure>
+<img src="img/7.png" alt="interface of Sublime text" style="width:100%">
+<figcaption align = "center"><b></b></figcaption>
+</figure>
+
+Now, create a file "index.php", and save it to "PHPwithFahim" folder. 
+
+<figure>
+<img src="img/8.png" alt="index.php" style="width:100%">
+<figcaption align = "center"><b>Create "index.php"</b></figcaption>
+</figure>
+
+About the extension, all PHP file has `.php` extensions in them. Therefore, we need to provide the `.php` extension anytime we want to create any PHP file. I will code in VS Code and I will check the output in my browser window.
+
+For the browser, I always prefer the widely popular [Google Chrome](https://www.google.com/chrome/) browser, but you can use other browsers.
+
+<figure>
+<img src="img/9.png" alt="Google Chrome download page" style="width:100%">
+<figcaption align = "center"><b>My preferred browser</b></figcaption>
+</figure>
+
+### Change Compatibility (Optional)
+
