@@ -32,3 +32,24 @@ If you do not change the installation directory of XAMPP during the installation
 <img src="img/1.png" alt="The necessary directory of XAMPP in C Drive" style="width:100%">
 <figcaption align = "center"><b>The necessary directory of XAMPP in C Drive</b></figcaption>
 </figure>
+
+Inside the directory, you will get a bunch of folders and files like below.
+
+<figure>
+<img src="img/2.png" alt="Inside the XAMPP folder" style="width:100%">
+<figcaption align = "center"><b>A lot of files and folders inside the "xampp" folder, but we do not need to worry about these for now!</b></figcaption>
+</figure>
+
+We will go into the "**htdocs**" folder.
+
+<figure>
+<img src="img/3.png" alt="htdocs folder" style="width:100%">
+<figcaption align = "center"><b>"htdocs" folder</b></figcaption>
+</figure>
+
+We will see some more folders and files inside the "htdocs" folder.
+
+<figure>
+<img src="img/4.png" alt="inside htdocs folder" style="width:100%">
+<figcaption align = "center"><b>Folders and Files inside the "htdocs" folder</b></figcaption>
+</figure>
