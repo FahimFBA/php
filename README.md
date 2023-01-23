@@ -94,3 +94,27 @@ For the browser, I always prefer the widely popular [Google Chrome](https://www.
 
 ### Change Compatibility (Optional)
 
+I always change the compatibility for two files. I often get many notifications during shutting down XAMPP on Windows. But it is completely an optional task. You do not necessarily need to follow this part if you do not want to tweak these. 
+
+I need to change something more inside the "xampp" folder. Inside the root folder of "xampp", we need to change the compatibility. 
+
+<figure>
+<img src="img/10.png" style="width:100%">
+<figcaption align = "center"><b></b></figcaption>
+</figure>
+
+Right click on "xampp_stop.exe" and go to properties. 
+
+<figure>
+<img src="img/11.png" style="width:100%">
+<figcaption align = "center"><b></b></figcaption>
+</figure>
+
+Go to the "Compatibility" tab. Make sure to check the box beside "Run this program as an administrator". Then click Apply and OK.
+
+<figure>
+<img src="img/12.png" style="width:100%">
+<figcaption align = "center"><b></b></figcaption>
+</figure>
+
+You have to do the same thing for "xampp-control.exe" file as well.
