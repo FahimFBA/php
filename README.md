@@ -15,6 +15,8 @@ I think the first thing that might come into your mind is that "Isn't PHP alread
     - [Change Compatibility (Optional)](#change-compatibility-optional)
 
 
+[⬆ Go to up](#php)
+
 
 
 ## Introduction (What is PHP?)
@@ -23,6 +25,7 @@ PHP is actually an abbreviation or acronym for "PHP: Hypertext Preprocessor". It
 
 [Facebook](https://facebook.com/), [Wikipedia](https://www.wikipedia.org/), [Tumbler](https://www.tumblr.com/), [Slack](https://slack.com/), [Etsy](https://www.etsy.com/), [MailChimp](https://mailchimp.com/), and even [WordPress](https://wordpress.org/) use PHP! I guess you are also overwhelmed by PHP after getting to know that even these big websites use PHP as a programming language.
 
+[⬆ Go to up](#php)
 
 ## Installation
 
@@ -30,6 +33,7 @@ For this book, I am going to use [XAMPP](https://www.apachefriends.org/) and [Su
 
 If you do not change the installation directory of XAMPP during the installation process, then XAMPP will create the installation folder under the `C:` drive. Simply go to your **C** drive and search for a folder named "xampp".
 
+[⬆ Go to up](#php)
 
 <figure>
 <img src="img/1.png" alt="The necessary directory of XAMPP in C Drive" style="width:100%">
@@ -95,6 +99,8 @@ For the browser, I always prefer the widely popular [Google Chrome](https://www.
 <figcaption align = "center"><b>My preferred browser</b></figcaption>
 </figure>
 
+[⬆ Go to up](#php)
+
 ### Change Compatibility (Optional)
 
 I always change the compatibility for two files. I often get many notifications during shutting down XAMPP on Windows. But it is completely an optional task. You do not necessarily need to follow this part if you do not want to tweak these. 
@@ -121,3 +127,5 @@ Go to the "Compatibility" tab. Make sure to check the box beside "Run this progr
 </figure>
 
 You have to do the same thing for "xampp-control.exe" file as well.
+
+[⬆ Go to up](#php)
