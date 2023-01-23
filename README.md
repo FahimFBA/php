@@ -106,14 +106,14 @@ I need to change something more inside the "xampp" folder. Inside the root folde
 Right click on "xampp_stop.exe" and go to properties. 
 
 <figure>
-<img src="img/11.png" style="width:65%">
+<img src="img/11.png" style="width:50%">
 <figcaption align = "center"><b></b></figcaption>
 </figure>
 
 Go to the "Compatibility" tab. Make sure to check the box beside "Run this program as an administrator". Then click Apply and OK.
 
 <figure>
-<img src="img/12.png" style="width:65%">
+<img src="img/12.png" style="width:50%">
 <figcaption align = "center"><b></b></figcaption>
 </figure>
 
