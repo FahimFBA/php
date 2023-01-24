@@ -13,6 +13,7 @@ I think the first thing that might come into your mind is that "Isn't PHP alread
   - [Introduction (What is PHP?)](#introduction-what-is-php)
   - [Installation](#installation)
     - [Change Compatibility (Optional)](#change-compatibility-optional)
+  - [Start `XAMPP`](#start-xampp)
 
 
 [⬆ Go to up](#php)
@@ -129,3 +130,30 @@ Go to the "Compatibility" tab. Make sure to check the box beside "Run this progr
 You have to do the same thing for "xampp-control.exe" file as well.
 
 [⬆ Go to up](#php)
+
+## Start `XAMPP`
+
+Before writing any PHP code, make sure to open XAMPP, and Start the `Apache` and `MySQL` modules. Simply click "Start".
+
+<figure>
+<img src="img/13.png" style="width:100%">
+<figcaption align = "center"><b></b></figcaption>
+</figure>
+
+It will start `Apache` and `MySQL`. Now we are good to go!
+
+<figure>
+<img src="img/14.png" style="width:100%">
+<figcaption align = "center"><b></b></figcaption>
+</figure>
+
+Open the browser and go to `localhost/PHPwithFahim`. It will redirect you to `http://localhost/PHPwithFahim/` automatically every time. Make sure to replace `PHPwithFahim` with the folder name that you are going to use for yourself. 
+
+<figure>
+<img src="img/15.png" style="width:100%">
+<figcaption align = "center"><b></b></figcaption>
+</figure>
+
+Of course, it is currently empty, because we have not written anything to our `index.php` file to display here. 
+
+Now you can start your PHP learning journey!
