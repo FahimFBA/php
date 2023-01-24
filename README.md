@@ -14,6 +14,7 @@ I think the first thing that might come into your mind is that "Isn't PHP alread
   - [Installation](#installation)
     - [Change Compatibility (Optional)](#change-compatibility-optional)
   - [Start `XAMPP`](#start-xampp)
+  - [Hello World in PHP](#hello-world-in-php)
 
 
 [⬆ Go to up](#php)
@@ -157,3 +158,75 @@ Open the browser and go to `localhost/PHPwithFahim`. It will redirect you to `ht
 Of course, it is currently empty, because we have not written anything to our `index.php` file to display here. 
 
 Now you can start your PHP learning journey!
+
+## Hello World in PHP
+
+Sublime text automatically comes with PHP auto-completion features. Simply type `php` and press the `Tab` key. It will automatically provide the boilerplate for your PHP file.
+
+<figure>
+<img src="img/16.png" style="width:100%">
+<figcaption align = "center"><b></b></figcaption>
+</figure>
+
+For printing something, we use `echo`.
+
+For example, as we want to print `Hello World`, we can write `echo "Hello World"` inside the boilerplate`. The code would be like this: 
+
+```php
+<?php 
+echo "Hello World";	
+?>
+```
+
+Now, we need to save the file before checking the output. I like to use the shortcut keys, `Ctrl` + `S` to save files.
+
+Now, I can check the output in my browser window. For this, I need to go to `localhost/PHPwithFahim`.
+
+<figure>
+<img src="img/17.png" style="width:100%">
+<figcaption align = "center"><b></b></figcaption>
+</figure>
+
+Please keep in mind, that the font size will not be this much bigger. I zoomed on the browser window before taking the screenshot.
+
+For the rest of the repository, I am not going to use any images as that might create more distraction. But don't worry, as I will obviously state all the inputs and outputs sequentially.
+
+Whenever we want to print something using the `echo`, we need to use single quote or the double quote to specify the whole strings.
+
+Yes, that means, we can also use the single quote instead of the double qoutes if we want. For example, check the below code:
+
+```php
+<?php 
+echo 'Hello World';	
+?>
+```
+
+This code also provides the same output as earlier.
+
+```
+Hello World
+```
+But you have to be careful about mixing them, as the mixing of the single and the double quotes will not work!
+
+```php
+<?php 
+echo "Hello World';	
+?>
+```
+This gives the following error in the browser window as we used the double qoute `"` and th single quote `'` together in a same string.
+
+```
+Parse error: syntax error, unexpected end of file, expecting variable or "${" or "{$" in C:\xampp\htdocs\PHPwithFahim\index.php on line 3
+```
+
+```php
+<?php 
+echo 'Hello World";	
+?>
+```
+
+This also gives error as we again used the single quote and the double quote together in a same string.
+
+```
+Parse error: syntax error, unexpected string content "Hello World"; " in C:\xampp\htdocs\PHPwithFahim\index.php on line 2
+```
