@@ -14,7 +14,9 @@ I think the first thing that might come into your mind is that "Isn't PHP alread
   - [Installation](#installation)
     - [Change Compatibility (Optional)](#change-compatibility-optional)
   - [Start `XAMPP`](#start-xampp)
+  - [PHP Syntax](#php-syntax)
   - [Hello World in PHP](#hello-world-in-php)
+  - [Comments](#comments)
 
 
 [⬆ Go to up](#php)
@@ -159,6 +161,17 @@ Of course, it is currently empty, because we have not written anything to our `i
 
 Now you can start your PHP learning journey!
 
+## PHP Syntax
+
+You can place a PHP script anywhere in your document. However, if we talk about the syntax of PHP, then a PHP script always starts with `<?php` and ends with `?>`. You have to use the extension `.php` for any PHP file. PHP is not a case sensitive language.
+For example:
+
+```php
+<?php
+// PHP code goes here
+?>
+```
+
 ## Hello World in PHP
 
 Sublime text automatically comes with PHP auto-completion features. Simply type `php` and press the `Tab` key. It will automatically provide the boilerplate for your PHP file.
@@ -230,3 +243,39 @@ This also gives error as we again used the single quote and the double quote tog
 ```
 Parse error: syntax error, unexpected string content "Hello World"; " in C:\xampp\htdocs\PHPwithFahim\index.php on line 2
 ```
+
+## Comments
+
+If you want to include anything in your code that you also do not want to execute, then in those cases, you can use the comments.
+
+For a single line comment you can either start your sentence with a `//` or a `#`.
+
+For example:
+
+```php
+<?php
+
+// This is a single line comment using //
+
+
+# This is also a single line comment but I am using #
+
+?>
+```
+
+For a multiple line comment, you have to start the comment with a `/*` and you have to end the comment with a `*/`. We use this multiline comment for documentation most often.
+
+For example:
+
+```php
+<?php
+/*
+This is a multiple line comment block
+that spans over multiple
+lines and we normally use it to document
+our codes.
+*/
+?>
+```
+
+We also use the comment to leave our parts of our code, for test and debugging purposes as well.
