@@ -17,6 +17,8 @@ I think the first thing that might come into your mind is that "Isn't PHP alread
   - [PHP Syntax](#php-syntax)
   - [Hello World in PHP](#hello-world-in-php)
   - [Comments](#comments)
+  - [Variables](#variables)
+  - [Concatenation](#concatenation)
 
 
 [⬆ Go to up](#php)
@@ -163,7 +165,7 @@ Now you can start your PHP learning journey!
 
 ## PHP Syntax
 
-You can place a PHP script anywhere in your document. However, if we talk about the syntax of PHP, then a PHP script always starts with `<?php` and ends with `?>`. You have to use the extension `.php` for any PHP file. PHP is not a case sensitive language.
+You can place a PHP script anywhere in your document. However, if we talk about the syntax of PHP, then a PHP script always starts with `<?php` and ends with `?>`. You have to use the extension `.php` for any PHP file. PHP is a case sensitive language. We use the semi-colon `;` to state the end of a statement in PHP.
 For example:
 
 ```php
@@ -279,3 +281,105 @@ our codes.
 ```
 
 We also use the comment to leave our parts of our code, for test and debugging purposes as well.
+
+## Variables
+
+Variables is actually a container for storing data. All variables start with a `$` sign in PHP. We attach the variable name with the `$` symbol.
+
+For example:
+
+```php
+<?php
+$FirstName = "Fahim";
+$LastName = "Amin";
+$MyAge = 23;
+?>
+```
+
+An interesting thing to keep in mind is that PHP actually has no command for declaring any variable. It is created only the moment you first assign a value to it.
+
+However, there are some rules for creating a variables in PHP:
+
+1. Variable must starts with a `$` sign and the name of the variables comes just after that without having any kind of space (` `) between them.
+2. Variable name cannot start with a number (1/2/3/4/etc.), and it must starts with a letter or an underscore character (`_`).
+3. In a senese, variable name can contain only the alpha numeric characters and underscores (A-Z, a-z, 0-9 and _).
+4. Variable names are case sensitive. Therefore, `MyName` and `myName` are certainly two different variables.
+
+
+If we want to print the variable's value, then we use the `echo` statement which is considered as the print statement in PHP.
+
+For example:
+
+```php
+<?php
+$FirstName = "Fahim";
+$LastName = "Amin";
+echo $FirstName;
+echo $LastName;
+?>
+```
+
+Another example where I want to get the summation and the multiplication of two variables:
+
+```php
+<?php
+$a = 10;
+$b = 20;
+echo $a + $b; // summation
+echo $a * $b; // multiplication
+?>
+```
+## Concatenation
+
+We can concate two separate strings with a `.`. 
+
+For example:
+
+```php
+<?php 
+$FirstName = "Fahim";
+$LastName = "Amin";
+echo $FirstName . $LastName;
+?>
+```
+
+The output will be:
+
+```
+FahimAmin
+```
+
+We can add a space between the two words manually using `.`. 
+
+For example:
+
+```php
+<?php 
+$FirstName = "Fahim";
+$LastName = "Amin";
+echo $FirstName . " " . $LastName;
+?>
+```
+The output will be:
+
+```
+Fahim Amin
+```
+
+But ofcourse, if you want then you can keep a space in any string beforehand.
+
+For example:
+
+```php
+<?php 
+$FirstName = "Fahim ";
+$LastName = "Amin";
+echo $FirstName . $LastName;
+?>
+```
+
+This also generates the same output:
+
+```
+Fahim Amin
+```
