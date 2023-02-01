@@ -22,6 +22,9 @@ I think the first thing that might come into your mind is that "Isn't PHP alread
   - [Data Types](#data-types)
   - [String Data Type](#string-data-type)
   - [Integer Data Type](#integer-data-type)
+  - [Float/Double Data Type](#floatdouble-data-type)
+  - [Array Data Type](#array-data-type)
+  - [Boolean Data Type](#boolean-data-type)
 
 
 [⬆ Go to up](#php)
@@ -454,7 +457,7 @@ Fahim'sAmin's
 
 [⬆ Go to up](#php)
 
-##  Integer Data Type
+## Integer Data Type
 
 An integer is a whole number. For example:
 
@@ -479,3 +482,87 @@ But, there are certain rules for using an integer in PHP:
 
 [⬆ Go to up](#php)
 
+## Float/Double Data Type
+
+A float is a number with a decimal point or a number in exponential form. For example:
+
+```php
+<?php
+$MySalary = 20000.50;
+echo $MySalary;
+?>
+```
+
+Output:
+
+```
+20000.5
+```
+
+[⬆ Go to up](#php)
+
+## Array Data Type
+
+An array is a data structure that can hold more than one value at a time. For example:
+
+```php
+<?php
+$MyFriends = array("Fahim", "Israt", "Larisa", "Tashfia", "Nayem");
+echo $MyFriends[0];
+echo $MyFriends[1];
+echo $MyFriends[2];
+echo $MyFriends[3];
+echo $MyFriends[4];
+?>
+```
+
+Output:
+
+```
+FahimIsratLarisaTashfiaNayem
+```
+
+We can also use the `print_r()` function to print the whole array. For example:
+
+```php
+<?php
+$MyFriends = array("Fahim", "Israt", "Larisa", "Tashfia", "Nayem");
+print_r($MyFriends);
+?>
+```
+
+Output:
+
+```
+Array ( [0] => Fahim [1] => Israt [2] => Larisa [3] => Tashfia [4] => Nayem )
+```
+
+I will talk about the `print_r()` function later.
+
+
+[⬆ Go to up](#php)
+
+## Boolean Data Type
+
+A boolean represents two possible states: TRUE or FALSE. For example:
+
+```php
+<?php
+$IsFahim = true;
+$IsAmin = false;
+echo $IsFahim;
+echo $IsAmin;
+?>
+```
+
+Output:
+
+```
+1
+```
+
+You might be wondering why the output is `1` instead of `true`. Well, the reason is that the `echo` statement can only print strings, and the boolean value `true` is actually a string. So, the `echo` statement prints the string `true` which is actually `1`.
+
+You might also be wondering why the output is nothing for the boolean value `false`. Well, the reason is that the `echo` statement can only print strings, and the boolean value `false` is actually an empty string. So, the `echo` statement prints nothing.
+
+[⬆ Go to up](#php)
