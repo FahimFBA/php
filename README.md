@@ -19,6 +19,9 @@ I think the first thing that might come into your mind is that "Isn't PHP alread
   - [Comments](#comments)
   - [Variables](#variables)
   - [Concatenation](#concatenation)
+  - [Data Types](#data-types)
+  - [String Data Type](#string-data-type)
+  - [Integer Data Type](#integer-data-type)
 
 
 [⬆ Go to up](#php)
@@ -393,6 +396,86 @@ This also generates the same output:
 ```
 Fahim Amin
 ```
+
+[⬆ Go to up](#php)
+
+## Data Types
+
+PHP has various data types. Those are:
+
+1. String
+2. Integer
+3. Float/Double
+4. Array
+5. Boolean
+6. Object
+7. Resource
+8. NULL
+
+[⬆ Go to up](#php)
+
+## String Data Type
+
+A string is a sequence of characters. We can use single quotes or double quotes to create a string. For example:
+
+```php
+<?php
+$FirstName = "Fahim";
+$LastName = 'Amin';
+echo $FirstName;
+echo $LastName;
+?>
+```
+
+Output:
+
+```
+FahimAmin
+```
+
+Here our string is `Fahim` and `Amin`. We can also use the single quote or the double quote to create a string. But we have to be careful about mixing them as that simply will not work.
+
+We can also use the escape character `\` to escape the single quote or the double quote. For example:
+
+```php
+<?php
+$FirstName = "Fahim's";
+$LastName = "Amin's";
+echo $FirstName;
+echo $LastName;
+?>
+```
+
+Output:
+
+```
+Fahim'sAmin's
+```
+
+[⬆ Go to up](#php)
+
+##  Integer Data Type
+
+An integer is a whole number. For example:
+
+```php
+<?php
+$MyAge = 23;
+echo $MyAge;
+?>
+```
+
+Output:
+
+```
+23
+```
+
+But, there are certain rules for using an integer in PHP:
+
+1. An integer must have at least one digit.
+2. It can either be a positive or negative number, but it can not have any decimal point.
+3. Integers can be specified in: decimal (base 10), hexadecimal (base 16), octal (base 8), or binary (base 2) notation.
 
 [⬆ Go to up](#php)
 
