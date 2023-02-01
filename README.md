@@ -163,6 +163,8 @@ Of course, it is currently empty, because we have not written anything to our `i
 
 Now you can start your PHP learning journey!
 
+[⬆ Go to up](#php)
+
 ## PHP Syntax
 
 You can place a PHP script anywhere in your document. However, if we talk about the syntax of PHP, then a PHP script always starts with `<?php` and ends with `?>`. You have to use the extension `.php` for any PHP file. PHP is a case sensitive language. We use the semi-colon `;` to state the end of a statement in PHP.
@@ -173,6 +175,7 @@ For example:
 // PHP code goes here
 ?>
 ```
+[⬆ Go to up](#php)
 
 ## Hello World in PHP
 
@@ -246,6 +249,8 @@ This also gives error as we again used the single quote and the double quote tog
 Parse error: syntax error, unexpected string content "Hello World"; " in C:\xampp\htdocs\PHPwithFahim\index.php on line 2
 ```
 
+[⬆ Go to up](#php)
+
 ## Comments
 
 If you want to include anything in your code that you also do not want to execute, then in those cases, you can use the comments.
@@ -281,6 +286,8 @@ our codes.
 ```
 
 We also use the comment to leave our parts of our code, for test and debugging purposes as well.
+
+[⬆ Go to up](#php)
 
 ## Variables
 
@@ -329,6 +336,9 @@ echo $a + $b; // summation
 echo $a * $b; // multiplication
 ?>
 ```
+
+[⬆ Go to up](#php)
+
 ## Concatenation
 
 We can concate two separate strings with a `.`. 
@@ -383,3 +393,6 @@ This also generates the same output:
 ```
 Fahim Amin
 ```
+
+[⬆ Go to up](#php)
+
