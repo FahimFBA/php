@@ -25,6 +25,7 @@ I think the first thing that might come into your mind is that "Isn't PHP alread
   - [Float/Double Data Type](#floatdouble-data-type)
   - [Array Data Type](#array-data-type)
   - [Boolean Data Type](#boolean-data-type)
+  - [Object Data Type](#object-data-type)
 
 
 [⬆ Go to up](#php)
@@ -564,5 +565,38 @@ Output:
 You might be wondering why the output is `1` instead of `true`. Well, the reason is that the `echo` statement can only print strings, and the boolean value `true` is actually a string. So, the `echo` statement prints the string `true` which is actually `1`.
 
 You might also be wondering why the output is nothing for the boolean value `false`. Well, the reason is that the `echo` statement can only print strings, and the boolean value `false` is actually an empty string. So, the `echo` statement prints nothing.
+
+[⬆ Go to up](#php)
+
+## Object Data Type
+
+An object is a data type which stores data and information on how to process that data. For example:
+
+```php
+<?php 
+class Dress {
+	public $color;
+	public $quantity;
+
+	public function __construct($color, $quantity) {
+	   $this -> color = $color;
+     $this -> quantity = $quantity;
+}
+public function message() {
+    return "Specification of the dress is -> Color: " . $this -> color . " and Quantity: " . $this -> quantity; 
+  }
+}
+
+$newDress = new Dress("Pink", 25);
+echo $newDress -> message();
+
+?>
+```
+
+Output:
+
+```
+Specification of the dress is -> Color: Pink and Quantity: 25
+```
 
 [⬆ Go to up](#php)
